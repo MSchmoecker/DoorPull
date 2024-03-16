@@ -4,7 +4,7 @@
 
 Pull doors open with Ctrl + Use key.
 
-![showcase](https://raw.githubusercontent.com/MSchmoecker/DoorPull/master/Docs/PullShowcase.mp4)
+![showcase](https://raw.githubusercontent.com/MSchmoecker/DoorPull/master/Docs/PullShowcase.gif)
 
 ## Manual  Installation
 
