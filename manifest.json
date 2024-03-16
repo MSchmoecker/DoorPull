@@ -1,0 +1,9 @@
+{
+	"name": "DoorPull",
+	"description": "Pull doors open with Ctrl + Use key",
+	"version_number": "0.0.1",
+	"website_url": "https://github.com/MSchmoecker/DoorPull",
+	"dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.2202"
+	]
+}
