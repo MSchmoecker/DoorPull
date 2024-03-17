@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using BepInEx;
+using BepInEx.Configuration;
 using HarmonyLib;
 using UnityEngine;
 
@@ -12,6 +13,8 @@ namespace DoorPull {
 
         public static Plugin Instance { get; private set; }
 
+        public static ConfigEntry<KeyboardShortcut> PullKey { get; private set; }
+
         private Harmony harmony;
 
         private void Awake() {
@@ -19,6 +22,8 @@ namespace DoorPull {
 
             harmony = new Harmony(ModGuid);
             harmony.PatchAll();
+
+            PullKey = Config.Bind("General", "Pull Key", new KeyboardShortcut(KeyCode.E, KeyCode.LeftControl));
         }
     }
 }
