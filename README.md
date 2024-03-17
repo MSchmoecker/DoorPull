@@ -39,6 +39,8 @@ Copy the example and change the Valheim install path to your location.
 
 ## Changelog
 
-0.1.0
+0.1.1
+- Added config option for keyboard shortcut
 
+0.1.0
 - Release
